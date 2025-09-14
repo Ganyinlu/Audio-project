@@ -1,0 +1,58 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.so.*
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*~
+*.tmp
+*.temp
+.#*
+\#*#
+*.swp
+*.swo
+
+# IDE files
+.vscode/
+.idea/
+*.cbp
+*.depend
+*.layout
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Documentation generated files
+docs/html/
+docs/latex/
+docs/man/
+docs/rtf/
+docs/xml/
+
+# Test coverage files
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+coverage/
+
+# Backup files
+*.bak
+*.backup
+
+# Dependency files
+*.d
+
+# Static analysis output
+cppcheck-report.xml
+scan-build-*/
